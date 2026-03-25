@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portées - Le Val Paisible des Hautes Pyrénées</title>
+    <meta name="description" content="Suivez nos portées de chiots Léonberg. Timeline des naissances, disponibilités et réservations. Élevage familial aux Hautes Pyrénées.">
+    <meta name="keywords" content="portée léonberg, chiots léonberg, naissance chiots, disponibilité léonberg, réserver chiot">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portées - Le Val Paisible des Hautes Pyrénées">
+    <meta property="og:description" content="Suivez nos portées de chiots Léonberg. Timeline des naissances et disponibilités.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://val-paisible-leonberg.github.io/portees.html">
+    <meta property="og:image" content="images/placeholder-og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🐕</span>
+                <span class="logo-text">Le Val Paisible</span>
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Accueil</a>
+                <a href="la-race.html" class="nav-link" data-i18n="nav_race">La Race</a>
+                <a href="nos-chiens.html" class="nav-link" data-i18n="nav_our_dogs">Nos Chiens</a>
+                <a href="bien-etre-adoption.html" class="nav-link" data-i18n="nav_adoption">Bien-être & Adoption</a>
+                <a href="portees.html" class="nav-link active" data-i18n="nav_litters">Portées</a>
+                <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+            </nav>
+            
+            <div class="header-actions">
+                <!-- Language Switcher -->
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="fr" title="Français">FR</button>
+                    <button class="lang-btn" data-lang="en" title="English">EN</button>
+                    <button class="lang-btn" data-lang="de" title="Deutsch">DE</button>
+                    <button class="lang-btn" data-lang="es" title="Español">ES</button>
+                    <button class="lang-btn" data-lang="pt" title="Português">PT</button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <nav class="nav-mobile">
+            <a href="index.html" class="nav-link" data-i18n="nav_home">Accueil</a>
+            <a href="la-race.html" class="nav-link" data-i18n="nav_race">La Race</a>
+            <a href="nos-chiens.html" class="nav-link" data-i18n="nav_our_dogs">Nos Chiens</a>
+            <a href="bien-etre-adoption.html" class="nav-link" data-i18n="nav_adoption">Bien-être & Adoption</a>
+            <a href="portees.html" class="nav-link active" data-i18n="nav_litters">Portées</a>
+            <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <img src="images/placeholder-puppies-header.jpg" alt="Chiots Léonberg" class="page-header-image">
+            <div class="page-header-overlay"></div>
+        </div>
+        <div class="page-header-content">
+            <h1 class="page-title" data-i18n="litters_title">Nos Portées</h1>
+            <p class="page-subtitle" data-i18n="litters_subtitle">Suivez l'arrivée de nos chiots</p>
+        </div>
+    </section>
+
+    <!-- Status Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="litters-status">
+                <div class="status-card preparation">
+                    <div class="status-icon">🏔️</div>
+                    <h2 data-i18n="status_title">En préparation</h2>
+                    <p data-i18n="status_text">Notre élevage est actuellement en phase d'installation et de sélection de notre future reproductrice. Les premières portées sont prévues pour 2025.</p>
+                    <div class="status-badge" data-i18n="status_badge">Aucune portée en cours</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="content-section bg-light">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label" data-i18n="timeline_label">Calendrier</span>
+                <h2 class="section-title" data-i18n="timeline_title">Le cycle d'une portée</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">💕</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline1_title">Saillie</h3>
+                        <p data-i18n="timeline1_text">La saillie est planifiée avec soin après validation de tous les tests de santé. Nous choisissons le reproducteur mâle pour compléter au mieux notre femelle.</p>
+                        <span class="timeline-note" data-i18n="timeline1_note">À venir</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">🤰</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline2_title">Gestation</h3>
+                        <p data-i18n="timeline2_text">La gestation dure environ 63 jours. Notre future maman bénéficie d'une surveillance vétérinaire régulière et d'une alimentation adaptée.</p>
+                        <span class="timeline-note" data-i18n="timeline2_note">À venir</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">🐾</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline3_title">Naissance</h3>
+                        <p data-i18n="timeline3_text">Les chiots naissent dans un environnement chaleureux et sécurisé. La mise bas se déroule sous supervision attentive.</p>
+                        <span class="timeline-note" data-i18n="timeline3_note">À venir</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">🍼</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline4_title">0-3 semaines</h3>
+                        <p data-i18n="timeline4_text">Les chiots restent avec leur mère en permanence. Leur développement est surveillé quotidiennement (prise de poids, comportement).</p>
+                        <span class="timeline-note" data-i18n="timeline4_note">À venir</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">👀</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline5_title">3-6 semaines</h3>
+                        <p data-i18n="timeline5_text">Ouverture des yeux, premiers pas, sevrage progressif. Début de la socialisation avec les bruits, les enfants et les autres animaux.</p>
+                        <span class="timeline-note" data-i18n="timeline5_note">À venir</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">🏠</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline6_title">6-8 semaines</h3>
+                        <p data-i18n="timeline6_text">Vaccinations, identification par puce électronique, choix définitif des adoptants. Les familles peuvent venir rencontrer leur futur compagnon.</p>
+                        <span class="timeline-note" data-i18n="timeline6_note">À venir</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item final">
+                    <div class="timeline-marker">
+                        <span class="marker-icon">❤️</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="timeline7_title">8 semaines - Départ</h3>
+                        <p data-i18n="timeline7_text">Les chiots partent dans leur nouvelle famille avec leur kit complet : carnet de santé, pedigree, vaccins, puce, et conseils personnalisés.</p>
+                        <span class="timeline-note" data-i18n="timeline7_note">À venir</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Litters Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label" data-i18n="future_label">Prochainement</span>
+                <h2 class="section-title" data-i18n="future_title">Portées à venir</h2>
+            </div>
+            
+            <div class="future-litters">
+                <div class="future-litter-card">
+                    <div class="litter-header">
+                        <span class="litter-badge expected" data-i18n="badge_expected">Prévue</span>
+                        <h3 data-i18n="litter1_title">Portée 2025</h3>
+                    </div>
+                    <div class="litter-details">
+                        <div class="litter-info">
+                            <div class="info-row">
+                                <span class="info-label" data-i18n="label_mom">Maman</span>
+                                <span class="info-value" data-i18n="litter1_mom">[À confirmer]</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label" data-i18n="label_dad">Papa</span>
+                                <span class="info-value" data-i18n="litter1_dad">[À confirmer]</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label" data-i18n="label_date">Date prévue</span>
+                                <span class="info-value" data-i18n="litter1_date">[À confirmer]</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label" data-i18n="label_puppies">Chiots attendus</span>
+                                <span class="info-value" data-i18n="litter1_puppies">[À confirmer]</span>
+                            </div>
+                        </div>
+                        <div class="litter-status">
+                            <div class="status-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 10%"></div>
+                                </div>
+                                <span class="progress-label" data-i18n="progress_label">En préparation</span>
+                            </div>
+                            <p class="litter-note" data-i18n="litter1_note">Les informations seront communiquées dès que notre reproductrice sera sélectionnée.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="content-section bg-light">
+        <div class="container">
+            <div class="registration-block">
+                <div class="registration-content">
+                    <h2 data-i18n="register_title">Être informé des portées</h2>
+                    <p data-i18n="register_text">Vous souhaitez être prévenu de l'arrivée de nos premières portées ? Laissez-nous vos coordonnées et nous vous contacterons dès que des informations seront disponibles.</p>
+                    
+                    <div class="registration-benefits">
+                        <h4 data-i18n="register_benefits">Avantages :</h4>
+                        <ul>
+                            <li data-i18n="benefit1">Notification prioritaire des naissances</li>
+                            <li data-i18n="benefit2">Accès aux photos et vidéos des chiots</li>
+                            <li data-i18n="benefit3">Possibilité de visite avant réservation</li>
+                            <li data-i18n="benefit4">Conseils personnalisés pour la préparation</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="contact.html" class="btn btn-primary btn-large" data-i18n="btn_register">S'inscrire aux alertes</a>
+                </div>
+                <div class="registration-image">
+                    <img src="images/placeholder-puppy-alert.jpg" alt="Chiot Léonberg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Placeholder -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label" data-i18n="gallery_label">Galerie</span>
+                <h2 class="section-title" data-i18n="gallery_title">Photos à venir</h2>
+            </div>
+            
+            <div class="gallery-placeholder">
+                <div class="placeholder-icon">📸</div>
+                <p data-i18n="gallery_text">Les photos de nos premiers chiots seront publiées ici dès la naissance de la première portée.</p>
+                <div class="placeholder-grid">
+                    <div class="placeholder-item">
+                        <img src="images/placeholder-puppy-1.jpg" alt="Placeholder chiot 1">
+                    </div>
+                    <div class="placeholder-item">
+                        <img src="images/placeholder-puppy-2.jpg" alt="Placeholder chiot 2">
+                    </div>
+                    <div class="placeholder-item">
+                        <img src="images/placeholder-puppy-3.jpg" alt="Placeholder chiot 3">
+                    </div>
+                    <div class="placeholder-item">
+                        <img src="images/placeholder-puppy-4.jpg" alt="Placeholder chiot 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-i18n="litters_cta_title">Des questions sur nos portées ?</h2>
+                <p data-i18n="litters_cta_text">N'hésitez pas à nous contacter pour toute information.</p>
+                <a href="contact.html" class="btn btn-primary btn-large" data-i18n="btn_contact">Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-icon">🐕</span>
+                        <span class="logo-text">Le Val Paisible</span>
+                    </a>
+                    <p class="footer-tagline" data-i18n="footer_tagline">Élevage familial de Léonbergs aux Hautes Pyrénées</p>
+                    <address class="footer-address">
+                        <span>Arrodets-ez-Angles</span>
+                        <span>65100 Hautes-Pyrénées, France</span>
+                    </address>
+                </div>
+                <div class="footer-nav">
+                    <h4 data-i18n="footer_nav">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+                        <li><a href="la-race.html" data-i18n="nav_race">La Race</a></li>
+                        <li><a href="nos-chiens.html" data-i18n="nav_our_dogs">Nos Chiens</a></li>
+                        <li><a href="portees.html" data-i18n="nav_litters">Portées</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footer_contact">Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@valpaisible.fr">contact@valpaisible.fr</a></li>
+                        <li><a href="tel:+33600000000">+33 6 00 00 00 00</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h4 data-i18n="footer_legal">Informations</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_mentions">Mentions légales</a></li>
+                        <li><span data-i18n="footer_siret">SIRET : en cours d'immatriculation</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Le Val Paisible des Hautes Pyrénées. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
