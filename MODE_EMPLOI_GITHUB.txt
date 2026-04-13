@@ -1,0 +1,83 @@
+GUIDE PRATIQUE - MISE EN LIGNE DU SITE ÉLEVAGE
+================================================
+
+ÉTAPE 1 : CRÉER VOTRE COMPTE GITHUB
+------------------------------------
+1. Allez sur github.com
+2. Inscription gratuite (email + mot de passe)
+3. Validez votre email
+
+ÉTAPE 2 : CRÉER LE "DOSSIER" (REPOSITORY)
+-----------------------------------------
+1. Connecté à GitHub, cliquez sur le "+" en haut à droite
+2. "New repository"
+3. Nom conseillé : val-paisible-leonberg
+4. Cochez "Public" et "Add a README file"
+5. Bouton vert "Create repository"
+
+ÉTAPE 3 : UPLOADER LES FICHIERS
+-------------------------------
+**Fichiers simples (HTML, TXT, XML) :**
+- Dans votre repo, "Add file" > "Upload files"
+- Sélectionnez : index.html, la-race.html, nos-chiens.html, etc.
+- Bouton "Commit changes"
+
+**Dossiers CSS et JS :**
+- "Add file" > "Create new file"
+- Dans le nom, tapez : css/style.css (crée le dossier + fichier)
+- Copiez-collez le code CSS fourni
+- Idem pour js/main.js
+
+**Les images :**
+- "Add file" > "Upload files"
+- Cliquez sur "images/" pour entrer dans le dossier
+- Uploadez vos vraies photos avec les noms exacts des placeholders
+
+ÉTAPE 4 : ACTIVER LE SITE WEB GRATUIT
+-------------------------------------
+1. En haut du repo, cliquez "Settings"
+2. Menu gauche : "Pages" (tout en bas)
+3. Sous "Source", choisissez : "Deploy from a branch"
+4. Sélectionnez : "main" et "/ (root)"
+5. Bouton "Save"
+6. Attendez 3 minutes
+7. L'URL s'affiche : https://[votrenom].github.io/val-paisible-leonberg
+
+ÉTAPE 5 : REFÉRENCEMENT GOOGLE (IMPORTANT)
+-------------------------------------------
+Pour apparaître sur Google quand on tape "léonberg hautes pyrénées" :
+
+1. Allez sur : https://search.google.com/search-console
+2. Connectez-vous avec votre compte Google
+3. Cliquez "Ajouter une propriété" > "Préfixe d'URL"
+4. Tapez votre URL GitHub complète
+5. Méthode de validation : choisissez "Fichier HTML"
+6. Téléchargez le fichier demandé (ex: google123abc.html)
+7. Retournez sur GitHub, uploadez ce fichier à la racine (avec index.html)
+8. Retournez sur Google Search Console, cliquez "Valider"
+9. Dans le menu gauche, cliquez "Sitemaps"
+10. Ajoutez : sitemap.xml
+11. Cliquez "Envoyer"
+
+DÉLAI : Google indexera votre site en 3 jours à 3 semaines.
+
+ÉTAPE 6 : VÉRIFICATIONS FINALES
+-------------------------------
+- Ouvrez votre site sur téléphone (doit être lisible)
+- Testez le switcher de langue
+- Vérifiez que les photos s'affichent
+- Cliquez sur tous les liens de menu
+
+MODIFICATIONS FUTURES
+---------------------
+Pour changer un texte :
+- GitHub > votre repo > cliquez le fichier > icône crayon (Edit)
+- Modifiez > "Commit changes" en bas
+
+Pour ajouter des photos de chiots plus tard :
+- Uploadez dans /images
+- Modifiez portees.html pour ajouter les nouvelles images
+
+AIDE
+----
+Si bloqué : demandez à un proche "tech" ou consultez aide.github.com

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://val-paisible-leonberg.github.io/sitemap.xml
+
+# Remplacer 'val-paisible-leonberg' par votre nom de repo exact
